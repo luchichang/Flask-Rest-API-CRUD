@@ -1,2 +1,4 @@
 # Flask-Rest-API-CRUD
-this repository has a  flask app with restful api with all CRUD methods 
+
+## Description, 
+             a Python flask app with restful api with all CRUD methods create a ** product's list ** using the flask server 
