@@ -31,3 +31,22 @@
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+   #check whether python package is installed
+   python3 --version 
+   #install the dependency flask and flask_cors using pip
+   python3 -m pip install flask flask_cors
+   ```
+
+2. using cURL tool to test the api endpoint
+   
+   ``` bash
+   # by default curl uses get method
+    curl http://localhost:5000/products
+
+    # for post method
+    
+    curl -X POST -H "Content-Type: application/json" \
+    -d '{"id": 145, "name": "Pen", "price": 2.5}' \
+    http://localhost:5000/products
+
+   ```
